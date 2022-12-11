@@ -3,7 +3,7 @@ import random
 attempts = 0
 
 number = random.randrange(1,100)
-guess = input("Guess a number between 1 and 100: ")
+guess = Int(input("Guess a number between 1 and 100: "))
 if guess.isalpha():
     print("You are not allowed to input letters")
 
